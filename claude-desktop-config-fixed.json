@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "clickup": {
+      "command": "node",
+      "args": ["/Users/Nick/Desktop/Clickup-MCP-main/build/index.js"],
+      "env": {
+        "CLICKUP_API_TOKEN": "pk_4476562_GEXEO5OVT26SC76EX6PXNA6HFCJK4DTD"
+      }
+    },
+    "pipedream": {
+      "command": "npx",
+      "args": [
+        "tsx",
+        "/Users/Nick/Desktop/MCP-Pipedream/pipedream/modelcontextprotocol/src/stdio.ts"
+      ],
+      "env": {
+        "PIPEDREAM_API_KEY": "e556680340b4c2bb807a3d3aa9266ce9",
+        "PIPEDREAM_CLIENT_ID": "Et15s3A4b-ddcZ18WAK6I0Y8XF2Cai-G_YtiIjykYak",
+        "PIPEDREAM_CLIENT_SECRET": "wd1e5kWZE8pm9L7agz239LCBNuZRecUISuA_QFz23c4",
+        "PIPEDREAM_PROJECT_ID": "proj_RMsDVGa",
+        "PIPEDREAM_PROJECT_ENVIRONMENT": "development"
+      }
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["-y", "mcp-fetch"]
+    }
+  }
+}
